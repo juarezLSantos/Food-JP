@@ -24,12 +24,13 @@ a{
     margin-left: 10%;
     margin-right: 10%;
 }
-
 main{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
 }
+
+
 
 .sushi-texto {
     /* border: solid green; */
@@ -54,7 +55,6 @@ main{
     height: 500px;
     display: flex;
     justify-content: space-between;
-    /* margin-top: 5%; */
     margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
@@ -70,11 +70,14 @@ main{
 .sushi-texto>button{
     color: ghostwhite;
     background-color: rgb(221, 75, 75);
-    border-radius: 15px;
-    width: 50%;
+    border-radius: 5px;
+    width: 150px;
+    height: 100px;
+    border: none;
+
 }
 
-/* ------------------------------------------------- 2 imagem */
+/* ------------------------------------------------- Card 2 */
 
 .card-2{
     /* border: solid red; */
@@ -118,8 +121,169 @@ main{
     padding-right: 5%;
 }
 
+/* Card 3 ------------------------------------------------- */
 
 
+/* .card-3>img{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    padding-top: 15%;
+    padding-bottom: 8%;
+    padding-left: 7%;
+    padding-right: 4%;
+} */
+
+.mais-populares{
+    text-align: center;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.card-3{
+    display:flex;
+    /* padding-right: 14%;
+    padding-left: 14%; */
+    gap: 40px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0%;
+    
+  }
+        
+  .card-3>section{
+      /* border: solid blueviolet; */
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .card-3 figure{
+        display: flex;
+        flex-direction: column;
+      /* border: dotted 2px blue; */
+      /* position: absolute; */
+      width: 70%;
+      gap: 20px;
+  }
+  
 
 
+  .card-3 img{
+    width:100%;
+  }
+  
+  .card-3 h2{
+      /* border: dotted 2px orange; */
+      text-align: center;
+      font-size: 24px;
+      font-family: sans-serif;
+  }
+  .card-3 p{
+      text-align: center;
+      font-size: 16px;
+  }
+     
+  /*  Card - 4 ------------------------------------------------ */
+
+  .comentarios{
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0%;
+    
+  }
+
+  .card-4{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0%;
+    gap: 30px;
+}
+
+/* .comentario-1{
+    background-color: #F3F3F3;
+    
+    
+}
+
+.comentario-2{
+    background-color: #F3F3F3; */
+    
+    .card-4>figure{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(243, 237, 237);
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        gap: 17px;
+        width: 280px;
+        
+    }
+    
+    
+    
+    .foto-1{
+    height: 67px;
+    width: 67px;
+}
+
+.foto-2{
+    height: 67px;
+    width: 67px;
+    
+}
+
+.estrela-1{
+    width: 30%;
+    height: 10%;
+    
+}
+.estrela-2{
+    width: 30%;
+    height: 10%;
+    
+}
+
+.card-4 h3{
+    font-size: 24px;
+}
+
+/* --------------------- card 5 */
+
+.card-5{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 0%;
+  gap: 30px;
+}
+
+.card-5 h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.card-5 img{
+    width: 100%;
+}
+
+.card-5>figure{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
 
